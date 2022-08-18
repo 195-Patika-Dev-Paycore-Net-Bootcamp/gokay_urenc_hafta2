@@ -3,16 +3,16 @@
 <h3>Görev Listesi</h4>
 <ul>
 <li>
-<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Models/StaffFluent.cs" target="_blank">Staff.cs</a>
+<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Models/StaffFluent.cs" target="_blank"><b>Staff.cs</b></a>
 </li>
 <li>
-<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Validators/StaffValidator.cs" target="_blank">StaffValidator.cs</a>
+<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Validators/StaffValidator.cs" target="_blank"><b>StaffValidator.cs</b></a>
 </li>
 <li>
-<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Utilities/DateTimeConverter.cs" target="_blank">DateTimeConverter.cs</a>
+<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Utilities/DateTimeConverter.cs" target="_blank"><b>DateTimeConverter.cs</b></a>
 </li>
 <li>
-<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Program.cs" target="_blank">Program.cs</a>
+<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Program.cs" target="_blank"><b>Program.cs</b></a>
 </li>
 <li>
 <dl>
