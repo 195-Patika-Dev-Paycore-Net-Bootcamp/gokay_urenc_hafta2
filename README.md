@@ -65,24 +65,24 @@
 <ul>
 <br />
 <li>
-(\d{}) : Sayısal veri anlamına gelir. Süslü parantez içinde kaç basamak olacağı belirlenebilir. Örnek: (\d{2})
+<b>(\d{})</b> : Sayısal veri anlamına gelir. Süslü parantez içinde kaç basamak olacağı belirlenebilir. Örnek: (\d{2})
 </li>
 <li>
-\s : 1 boşluk karakteri anlamına gelir.
+<b>\s</b> : 1 boşluk karakteri anlamına gelir.
 </li>
 <li>
-\ : Bu sembolün hemen yanına yazılan karakter yazıldığı yerde kullanılmak zorunda anlamına gelir. Örnekler: \( , \) , \+
+<b>\</b> : Bu sembolün hemen yanına yazılan karakter yazıldığı yerde kullanılmak zorunda anlamına gelir. Örnekler: \( , \) , \+
 </li>
 <li>
-[] : Bu sembolün içerisine yazılan değerler kullanılabilecek değerleri taşır. Örnek: [a-zA-Z\.@] => Bu örnekte kullanılan ifadenin alabileceği değerler: A'dan Z'ye büyük veya küçük tüm alfabetik harfler ve nokta ile @ işaretidir. Bunlar dışında değer alamaz.
+<b>[]</b> : Bu sembolün içerisine yazılan değerler kullanılabilecek değerleri taşır. Örnek: [a-zA-Z\.@] => Bu örnekte kullanılan ifadenin alabileceği değerler: A'dan Z'ye büyük veya küçük tüm alfabetik harfler ve nokta ile @ işaretidir. Bunlar dışında değer alamaz.
 </li>
 </ul>
 <hr />
 <b>Regex Çözümleri</b>
 <ul>
 <br />
-<li>^\+(\d{12}) : +902121231212</li>
-<li>^\+(\d{2})\s(\d{3})\s(\d{3})\s(\d{2})\s(\d{2}) : +90 212 123 12 12 (Kullanılan)</li>
-<li>^\+(\d{2})\s\((\d{3})\)\s(\d{3})\s(\d{2})\s(\d{2}) : +90 (212) 123 12 12</li>
-<li>^[a-zA-Z\.@]{2,100}$ : example@paycore.com</li>
+<li><b>^\+(\d{12})</b> : +902121231212</li>
+<li><b>^\+(\d{2})\s(\d{3})\s(\d{3})\s(\d{2})\s(\d{2})</b> : +90 212 123 12 12 (Kullanılan)</li>
+<li><b>^\+(\d{2})\s\((\d{3})\)\s(\d{3})\s(\d{2})\s(\d{2})</b> : +90 (212) 123 12 12</li>
+<li><b>^[a-zA-Z\.@]{2,100}$</b> : example@paycore.com</li>
 </ul>
