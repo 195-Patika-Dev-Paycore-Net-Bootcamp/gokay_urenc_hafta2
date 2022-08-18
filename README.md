@@ -2,14 +2,30 @@
 <hr />
 <h3>Görev Listesi</h4>
 <ul>
-<li>[HttpGet] Get()</li>
-<li>[HttpGet] GetById(int?)</li>
-<li>[HttpPost] Post(Staff)</li>
-<li>[HttpPut] Put(int?, Staff)</li>
-<li>[HttpDelete] Delete(int?)</li>
-<li>[NonAction] SearchById(int?)</li>
 <li>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href=""><img src="https://i.hizliresim.com/nzjefhb.png" alt="Swagger" style="max-width: 100%;"></a></p>
+<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Models/StaffFluent.cs" target="_blank">Staff.cs</a>
+</li>
+<li>
+<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Validators/StaffValidator.cs" target="_blank">StaffValidator.cs</a>
+</li>
+<li>
+<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Utilities/DateTimeConverter.cs" target="_blank">DateTimeConverter.cs</a>
+</li>
+<li>
+<a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Program.cs" target="_blank">Program.cs</a>
+</li>
+<li>
+<dl>
+<dt><a href="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/gokay_urenc_hafta2/blob/main/PayCoreClassWork2/PayCoreClassWork2/Controllers/StaffController.cs" target="_blank">StaffController.cs</a></dt>
+<br/ >
+<dd>[HttpGet] Get()</dd>
+<dd>[HttpGet] GetById(int?)</dd>
+<dd>[HttpPost] Post(Staff)</dd>
+<dd>[HttpPut] Put(int?, Staff)</dd>
+<dd>[HttpDelete] Delete(int?)</dd>
+<dd>[NonAction] SearchById(int?)</dd>
+<dd><p dir="auto"><a target="_blank" rel="noopener noreferrer" href=""><img src="https://i.hizliresim.com/nzjefhb.png" alt="Swagger" style="max-width: 100%;"></a></p></dd>
+</dl>
 </li>
 </ul>
 <hr />
@@ -43,4 +59,30 @@
 <h4>Nesne Şeması</h4>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href=""><img src="https://i.hizliresim.com/mzdnrsu.png" alt="Swagger" style="max-width: 100%;"></a></p>
 </li>
+</ul>
+<hr />
+<b>Regex Notları</b>
+<ul>
+<br />
+<li>
+(\d{}) : Sayısal veri anlamına gelir. Süslü parantez içinde kaç basamak olacağı belirlenebilir. Örnek: (\d{2})
+</li>
+<li>
+\s : 1 boşluk karakteri anlamına gelir.
+</li>
+<li>
+\ : Bu sembolün hemen yanına yazılan karakter yazıldığı yerde kullanılmak zorunda anlamına gelir. Örnekler: \( , \) , \+
+</li>
+<li>
+[] : Bu sembolün içerisine yazılan değerler kullanılabilecek değerleri taşır. Örnek: [a-zA-Z\.@] => Bu örnekte kullanılan ifadenin alabileceği değerler: A'dan Z'ye büyük veya küçük tüm alfabetik harfler ve nokta ile @ işaretidir. Bunlar dışında değer alamaz.
+</li>
+</ul>
+<hr />
+<b>Regex Çözümleri</b>
+<ul>
+<br />
+<li>^\+(\d{12}) : +902121231212</li>
+<li>^\+(\d{2})\s(\d{3})\s(\d{3})\s(\d{2})\s(\d{2}) : +90 212 123 12 12 (Kullanılan)</li>
+<li>^\+(\d{2})\s\((\d{3})\)\s(\d{3})\s(\d{2})\s(\d{2}) : +90 (212) 123 12 12</li>
+<li>^[a-zA-Z\.@]{2,100}$ : example@paycore.com</li>
 </ul>
